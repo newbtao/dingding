@@ -181,7 +181,6 @@
 						}, 4E4); // 40s
 					}
 				};
-	define(function (require, exports, module) {
+	
 		module.exports = _global.saveAs = saveAs.saveAs = saveAs;
-	});
 });
