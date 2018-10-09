@@ -182,5 +182,6 @@
 					}
 				};
 	
-		module.exports = _global.saveAs = saveAs.saveAs = saveAs;
+		// module.exports = _global.saveAs = saveAs.saveAs = saveAs;
+	window.saveAs = _global.saveAs = saveAs.saveAs = saveAs;
 });
